@@ -5,6 +5,7 @@ tags:
     - ssh
     - linux
 title: ssh 如何使用密钥登录
+description: 只是不想ssh输入密码罢了
 ---
 
 ## 前言
