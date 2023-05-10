@@ -25,8 +25,9 @@ description: 嗯, 通过wifi改代理我觉得挺烦的
 
 当客户端访问指定网站时，会向服务端发送指定的协议请求，并返回客户端结果。在客户端请求过程可以是直连请求，也可以是代理请求，目的都是让服务端为了返回结果，所以我们可以通过代理池指定某个域名请求是否通过代理。
 
-``` 
+``` mermaid
 graph LR
+
     Client[客户端] --> Gateway{网关}
     Gateway ==> ProxyGroup[代理池]
     Gateway -->|直连| Internet[互联网]
