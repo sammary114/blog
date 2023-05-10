@@ -118,4 +118,3 @@ graph LR
 ![提交成绩页面](230510-maimai-update-prober/maimai_prober_submitting.jpg)
 
 然后就可以查找成绩
-
