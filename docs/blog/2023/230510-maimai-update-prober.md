@@ -53,13 +53,13 @@ graph LR
 
 在 nekobox 中, 点击右上角, 添加服务器配置, 创建一个http代理
 
-<img alt="创建http代理1" height="1172" src="./230510-maimai-update-prober/create_http_proxy_1.jpg" width="500"/>
+![创建http代理1](image/230510-maimai-update-prober/create_http_proxy_1.jpg)
 
-<img alt="创建http代理2" height="1172" src="./230510-maimai-update-prober/create_http_proxy_2.jpg" width="500"/>
+![创建http代理2](image/230510-maimai-update-prober/create_http_proxy_2.jpg)
 
-<img alt="创建http代理3" height="1172" src="./230510-maimai-update-prober/create_http_proxy_3.jpg" width="500"/>
+![创建http代理3](image/230510-maimai-update-prober/create_http_proxy_3.jpg)
 
-<img alt="创建http代理4" height="1172" src="./230510-maimai-update-prober/create_http_proxy_4.jpg" width="500"/>
+![创建http代理4](image/230510-maimai-update-prober/create_http_proxy_4.jpg)
 
 配置名称: 自己定义 (可以不取, 会显示`proxy.bakapiano.com:2560`, 教程演示的是`maimai-prober`)
 
@@ -71,13 +71,13 @@ graph LR
 
 然后点击刚刚创建的代理即可
 
-<img alt="创建http代理5" height="1172" src="./230510-maimai-update-prober/create_http_proxy_5.jpg" width="500"/>
+![创建http代理5](image/230510-maimai-update-prober/create_http_proxy_5.jpg)
 
 ### 创建路由
 
 点击左上角 - 路由
 
-<img alt="路由页面" height="1172" src="./230510-maimai-update-prober/route_page.jpg" width="500"/>
+![路由页面](image/230510-maimai-update-prober/route_page.jpg)
 
 创建一个路由, 路由名字自己定义 (这里我定义为华立科技), 应用选择微信, 在domain项填写
 
@@ -85,21 +85,21 @@ graph LR
 
 `domain:maimai.bakapiano.com` (可不加)
 
-<img alt="创建路由" height="1172" src="./230510-maimai-update-prober/create_route_rule.jpg" width="500"/>
+![创建路由](image/230510-maimai-update-prober/create_route_rule.jpg)
 
 在 outbound 选项, 点击 选择配置 - maimai-prober (没有创建名字默认显示maimai.bakapiano.com:2560)
 
-<img alt="路由选择代理1" height="1172" src="./230510-maimai-update-prober/create_roule_rule_select_proxy_1.jpg" width="500"/>
+![路由选择代理1](image/230510-maimai-update-prober/create_roule_rule_select_proxy_1.jpg)
 
-<img alt="路由选择代理2" height="1172" src="./230510-maimai-update-prober/create_roule_rule_select_proxy_2.jpg" width="500"/>
+![路由选择代理2](image/230510-maimai-update-prober/create_roule_rule_select_proxy_2.jpg)
 
 然后点击确认
 
 在路由页面, 长按 华立科技 后, 拉倒最上面
 
-<img alt="整理路由规则" height="1172" src="./230510-maimai-update-prober/move_route_rule.jpg" width="500"/>
+![整理路由规则](image/230510-maimai-update-prober/move_route_rule.jpg)
 
-<img alt="整理路由规则" height="1172" src="./230510-maimai-update-prober/move_route_rule_top.jpg" width="500"/>
+![整理路由规则](image/230510-maimai-update-prober/move_route_rule_top.jpg)
 
 接着把所有路由规则, 都开启
 
@@ -107,15 +107,15 @@ graph LR
 
 在微信任意聊天中发送链接 https://maimai.bakapiano.com 并访问
 
-<img alt="微信聊天中发送链接" height="1172" src="./230510-maimai-update-prober/wechat_send_message.jpg" width="500"/>
+![微信聊天中发送链接](image/230510-maimai-update-prober/wechat_send_message.jpg)
 
 如果提示代理正常就可以提交成绩, 如下图
 
-<img alt="登录页面" height="1172" src="./230510-maimai-update-prober/maimai_prober_login_page.jpg" width="500"/>
+![登录页面](image/230510-maimai-update-prober/maimai_prober_login_page.jpg)
 
 提交成绩页面
 
-<img alt="提交成绩页面" height="1172" src="./230510-maimai-update-prober/maimai_prober_submitting.jpg" width="500"/>
+![提交成绩页面](image/230510-maimai-update-prober/maimai_prober_submitting.jpg)
 
 然后就可以查找成绩
 
