@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://sammary114.github.io/blog/</loc>
-         <lastmod>2023-12-14</lastmod>
+         <loc>https://blog.zonelemon.top/</loc>
+         <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sammary114.github.io/blog/tags/</loc>
-         <lastmod>2023-12-14</lastmod>
+         <loc>https://blog.zonelemon.top/tags/</loc>
+         <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sammary114.github.io/blog/toc/</loc>
-         <lastmod>2023-12-14</lastmod>
+         <loc>https://blog.zonelemon.top/toc/</loc>
+         <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sammary114.github.io/blog/blog/2023/230419-ssh-login-cert/</loc>
-         <lastmod>2023-12-14</lastmod>
+         <loc>https://blog.zonelemon.top/blog/2023/230419-ssh-login-cert/</loc>
+         <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sammary114.github.io/blog/blog/2023/230510-maimai-update-prober/</loc>
-         <lastmod>2023-12-14</lastmod>
+         <loc>https://blog.zonelemon.top/blog/2023/230510-maimai-update-prober/</loc>
+         <lastmod>2023-12-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
