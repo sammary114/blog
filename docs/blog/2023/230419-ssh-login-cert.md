@@ -1,6 +1,6 @@
 ---
 author: Sammary114
-author_gh_user: zlh953662526
+author_gh_user: sammary114
 tags:
     - ssh
     - linux
