@@ -6,19 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="只是不想ssh输入密码罢了">
+        <meta name="description" content="能命令做的事情就不想开浏览器了">
       
       
         <meta name="author" content="Sammary114">
       
       
-        <link rel="canonical" href="https://blog.zonelemon.top/blog/2023/230419-ssh-login-cert/">
+        <link rel="canonical" href="https://blog.zonelemon.top/blog/2024/20240304-scoop-note/">
       
       
-        <link rel="prev" href="../../../toc/">
+        <link rel="prev" href="../../2023/230510-maimai-update-prober/">
       
-      
-        <link rel="next" href="../230510-maimai-update-prober/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -26,7 +24,7 @@
     
     
       
-        <title>ssh 如何使用密钥登录 - Sammary114`s Blog</title>
+        <title>scoop 安装指北 - Sammary114`s Blog</title>
       
     
     
@@ -86,11 +84,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#_1" class="md-skip">
-          跳转至
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -121,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ssh 如何使用密钥登录
+              scoop 安装指北
             
           </span>
         </div>
@@ -291,7 +284,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../../2023/230419-ssh-login-cert/" class="md-tabs__link">
           
   
   Blog
@@ -457,8 +450,6 @@
                 
   
   
-    
-  
   
   
     
@@ -468,11 +459,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
         
           
           <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
@@ -486,7 +477,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_1">
             <span class="md-nav__icon md-icon"></span>
             2023
@@ -497,28 +488,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    ssh 如何使用密钥登录
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../2023/230419-ssh-login-cert/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -527,93 +500,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      前言
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ssh" class="md-nav__link">
-    <span class="md-ellipsis">
-      什么是SSH
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      登录原理
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ssh_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      ssh的登录方法
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ssh的登录方法">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      口令登录
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      证书登录
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      省流
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -626,7 +512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../230510-maimai-update-prober/" class="md-nav__link">
+      <a href="../../2023/230510-maimai-update-prober/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -652,6 +538,8 @@
                 
   
   
+    
+  
   
   
     
@@ -661,11 +549,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" checked>
         
           
           <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
@@ -679,7 +567,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             2024
@@ -690,10 +578,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../2024/20240304-scoop-note/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -702,6 +597,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -740,83 +636,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      前言
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ssh" class="md-nav__link">
-    <span class="md-ellipsis">
-      什么是SSH
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      登录原理
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ssh_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      ssh的登录方法
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="ssh的登录方法">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      口令登录
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      证书登录
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      省流
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -833,58 +652,9 @@
   
 
 
-  <h1>ssh 如何使用密钥登录</h1>
+  <h1>scoop 安装指北</h1>
 
-<h2 id="_1">前言<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>为了避免多次使用口令登录的麻烦和键盘监听导致个人使用计算机时出现风险，先记录ssh如何使用证书登录：</p>
-<p>该文章要求的知识：</p>
-<ul>
-<li>
-<p>知道什么是ssh</p>
-</li>
-<li>
-<p>会linux基础命令</p>
-</li>
-<li>
-<p>会使用搜索引擎查找问题在哪</p>
-</li>
-</ul>
-<h2 id="ssh">什么是SSH<a class="headerlink" href="#ssh" title="Permanent link">&para;</a></h2>
-<p>SSH是一种网络协议，用于计算机之间的加密登录。</p>
-<h2 id="_2">登录原理<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p>百度</p>
-<h2 id="ssh_1">ssh的登录方法<a class="headerlink" href="#ssh_1" title="Permanent link">&para;</a></h2>
-<h3 id="_3">口令登录<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
-<p>默认使用的方法，不想多写</p>
-<h3 id="_4">证书登录<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<p>SSH 密钥登录采用的是非对称加密，每个用户通过自己的密钥登录。其中，私钥必须私密保存，不能泄漏；公钥则是公开的，可以对外发送。它们的关系是，公钥和私钥是一一对应的，每一个私钥都有且仅有一个对应的公钥，反之亦然。</p>
-<p>如果数据使用公钥加密，那么只有使用对应的私钥才能解密，其他密钥都不行；反过来，如果使用私钥加密（这个过程一般称为“签名”），也只有使用对应的公钥解密。</p>
-<blockquote>
-<p>摘自 <a href="https://cloud.tencent.com/developer/article/1780788">https://cloud.tencent.com/developer/article/1780788</a></p>
-</blockquote>
-<p>使用证书登录之前，在客户端使用 <code>ssh-keygen</code> 命令生成密钥</p>
-<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa
-</code></pre></div>
-<blockquote>
-<p>其实原命令是 <code>ssh-keygen [-t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]</code>, 你应该知道<code>[]</code>为可选项</p>
-</blockquote>
-<p>第一次生成不懂就一直回车就行，下面介绍每个步骤的解释：</p>
-<p><code>Enter file in which to save the key (/home/Administrator/.ssh/id_rsa):</code></p>
-<p>意思为该密钥文件保存的位置</p>
-<p><code>Enter passphrase (empty for no passphrase):</code></p>
-<p>为密钥输入密码</p>
-<p>之后就会生成 <code>xx_rsa</code> 和 <code>xx_rsa.pub</code> 两个文件</p>
-<p><code>xx_rsa</code> : 私钥，客户端留着</p>
-<p><code>xx_rsa.pub</code> : 公钥，服务端留着</p>
-<p>（以上说法仅限个人服务使用, 请勿用于公共服务）</p>
-<p><strong>实践部分</strong></p>
-<p>如果提示 <code>connection refuse</code> 多半是ssh服务没开或者22端口没有开</p>
-<p>如果使用一些支持shell命令的终端（比如<code>MobaXterm</code>）可以使用以下命令</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>cat<span class="w"> </span>~/.ssh/id_rsa.pub<span class="w"> </span><span class="p">|</span><span class="w"> </span>ssh<span class="w"> </span>user@host<span class="w"> </span><span class="s2">&quot;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&quot;</span>
-</code></pre></div>
-<p>如果使用mobaxterm、finalshell等软件, 记得添加私钥文件就行, 不然还是要口令登录</p>
-<h2 id="_5">省流<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<p>个人使用，在你自己的电脑使用<code>ssh-keygen</code>生成命令，回车三下，在用户目录的 <code>.ssh</code> 目录下，把 <code>id_rsa.pub</code> 的内容写入服务器的 <code>~/.ssh/authorized_keys</code>的里面就行，如果使用mobaxterm、finalshell等软件, 记得添加私钥文件就行, 不然还是要口令登录</p>
+
 
 
 
@@ -907,7 +677,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2023-05-09 15:37:54</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2024-03-04 08:53:09</span>
   </span>
 
     
@@ -917,7 +687,7 @@
     <span class="md-icon" title="创建日期">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2023-04-19 08:12:10</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2024-03-04 08:53:09</span>
   </span>
 
     
@@ -952,7 +722,7 @@
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../../../toc/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 目录">
+          <a href="../../2023/230510-maimai-update-prober/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 通过nekobox上传maimai分数">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -962,27 +732,11 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                目录
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../230510-maimai-update-prober/" class="md-footer__link md-footer__link--next" aria-label="下一页: 通过nekobox上传maimai分数">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                下一页
-              </span>
-              <div class="md-ellipsis">
                 通过nekobox上传maimai分数
               </div>
             </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
           </a>
+        
         
       </nav>
     
