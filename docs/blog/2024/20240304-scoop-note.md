@@ -38,3 +38,14 @@ Scoop 等一系列包管理器的诞生，第一大便利就是省去了上述�
 - 在卸载软件的时候，能够尽量清空软件在电脑上存储的任何数据和痕迹
 
 特别的，Scoop 最适合安装那种干净、小巧、开源的软件。并且，Scoop 也极度适合为开发者配置开发环境，不过这些很多都涉及到进阶使用技巧。下面我们先从基础的安装方法开始介绍如何「像 Windows 高手一样管理应用，从 Scoop 开始」。
+
+## 安装方法
+
+### 先决条件
+
+需要执行策略才能安装
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
