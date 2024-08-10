@@ -43,7 +43,7 @@ graph LR
 
 ### 下载 nekobox
 
-地址: https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest
+地址: <https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest>
 
 选择后缀带有 `arm64-v8a.apk` 的, 安装即可
 
@@ -105,7 +105,7 @@ graph LR
 
 ### 上传成绩
 
-在微信任意聊天中发送链接 https://maimai.bakapiano.com 并访问
+在微信任意聊天中发送链接 <https://maimai.bakapiano.com> 并访问
 
 ![微信聊天中发送链接](image/230510-maimai-update-prober/wechat_send_message.jpg)
 
@@ -123,10 +123,8 @@ graph LR
 
 [maimaidx-prober](https://github.com/Diving-Fish/maimaidx-prober)
 
-[bakapiano](https://github.com/bakapiano/) 
+[bakapiano](https://github.com/bakapiano/)
 
 [maimaidx-prober-proxy-updater](https://github.com/bakapiano/maimaidx-prober-proxy-updater)
 
 [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)
-
-

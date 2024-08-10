@@ -47,6 +47,7 @@ SSH 密钥登录采用的是非对称加密，每个用户通过自己的密钥�
 ```Shell
 ssh-keygen -t rsa
 ```
+
 > 其实原命令是 `ssh-keygen [-t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]`, 你应该知道`[]`为可选项
 
 第一次生成不懂就一直回车就行，下面介绍每个步骤的解释：
@@ -74,15 +75,11 @@ ssh-keygen -t rsa
 如果使用一些支持shell命令的终端（比如`MobaXterm`）可以使用以下命令
 
 ```Shell
-$ cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh user@host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
-
 
 如果使用mobaxterm、finalshell等软件, 记得添加私钥文件就行, 不然还是要口令登录
 
 ## 省流
 
 个人使用，在你自己的电脑使用`ssh-keygen`生成命令，回车三下，在用户目录的 `.ssh` 目录下，把 `id_rsa.pub` 的内容写入服务器的 `~/.ssh/authorized_keys`的里面就行，如果使用mobaxterm、finalshell等软件, 记得添加私钥文件就行, 不然还是要口令登录
-
-
-
