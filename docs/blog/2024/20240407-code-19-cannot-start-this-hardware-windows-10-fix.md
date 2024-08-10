@@ -27,9 +27,23 @@ description: 评价是太闲写的教程
 ## 正确操作
 
 1. 在设备管理器找到`代码19`的设备, 如图：
+
+    :::image type="content" source="image/20240407-code-19-cannot-start-this-hardware-windows-10-fix-1.png" alt-text="code-19-cannot-start-this-hardware-windows-10-fix-1":::
+
 2. 双击打开，弹出设备属性页面，提示注册表错误
+
+    ![image alt text](https://webdoc.lenovo.com.cn/lenovowsi/new_cskb/uploadfile/20190618101134219001.png)
+
 3. 在属性页中，点击标签页的详细事件，在属性列表中选择`类guid`，记住对应值
+
+    :::image type="content" source="image/20240407-code-19-cannot-start-this-hardware-windows-10-fix-3.png" alt-text="code-19-cannot-start-this-hardware-windows-10-fix-3":::
+
 4. 按`WIN+R`组合键打开运行，输入`regedit`后回车，打开注册表
-5. 找到`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class{对应guid值}`项
+
+5. 找到`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{对应guid值}`项
+
+    :::image type="content" source="image/20240407-code-19-cannot-start-this-hardware-windows-10-fix-5.png" alt-text="code-19-cannot-start-this-hardware-windows-10-fix-5":::
+
 6. 打开UpperFilters，删除其中数据，点击确定
+
 7. 操作完成后，重启即可恢复正常
