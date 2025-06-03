@@ -10,11 +10,13 @@ description: 就是记录设备和系统环境
 
 ## windows
 
-### 软件
+### 包管理器
 
 [scoop](https://scoop.sh)
 
 winget (使用`scoop install main/winget`安装)
+
+### 软件
 
 powertoys (使用`scoop install extras/powertoys`安装)
 
