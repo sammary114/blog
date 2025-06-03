@@ -5,7 +5,7 @@ tags:
     - maimai
     - proxy
     - nekobox
-title: 通过nekobox上传maimai分数
+title: (Deprecated) 通过nekobox上传maimai分数
 description: 嗯, 通过wifi改代理我觉得挺烦的
 ---
 
